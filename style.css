@@ -99,3 +99,28 @@ body {
     line-height: 1.6;
     color: #b22222;
 }
+
+
+/* Our Story page background quotes */
+.story-hero {
+    position: relative;
+    background-color: #fff0f5;
+}
+
+body.our-story-page {
+    background-color: #fff0f5;
+    background-image: 
+        repeating-linear-gradient(
+            45deg,
+            rgba(255, 192, 203, 0.15) 0%,
+            rgba(255, 192, 203, 0.15) 1%,
+            transparent 1%,
+            transparent 10%
+        ),
+        url('quotes-bg.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+/* For the quote background image, we'll create it as inline SVG text pattern */
